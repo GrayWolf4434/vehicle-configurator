@@ -1,0 +1,8 @@
+{
+  "/einpreiser": {
+    "target": "https://products.carobserver.de",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

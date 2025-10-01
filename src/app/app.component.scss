@@ -1,0 +1,23 @@
+.topbar { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+.topbar .pct { width: 42px; text-align: right; }
+.topbar .bar { flex: 0 0 280px; }
+.spacer { flex:1; }
+
+.row { display:flex; flex-wrap:wrap; gap:12px; }
+.flags { gap:24px; }
+mat-form-field { width: 240px; }
+.actions { margin-top: 12px; display:flex; gap:12px; }
+.preview { margin: 12px 0; }
+pre { background:#f5f5f5; padding:12px; border-radius:8px; max-height:40vh; overflow:auto; }
+
+:host ::ng-deep .mat-horizontal-stepper-header .mat-step-text-label {
+  white-space: normal;
+  max-width: 200px;
+  line-height: 1.25;
+}
+:host ::ng-deep .mat-horizontal-stepper-header { height: auto; }
+:host ::ng-deep .mat-stepper-horizontal { overflow: visible; }
+
+.login-block { margin: 12px 0; }
+.token-ok { display:flex; align-items:center; gap:8px; margin:8px 0; }
+.error { color: #b00020; margin-top:6px; }
